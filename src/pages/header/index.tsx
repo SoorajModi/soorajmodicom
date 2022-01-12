@@ -5,8 +5,8 @@ import {
 
 function Header() {
   return (
-    <div className="h-screen grid place-items-center">
-      <div className="text-center">
+    <div className="bg-sooraj-blue h-screen grid place-items-center">
+      <div className="text-center text-white">
         <Image />
         <Name />
         <Title />
