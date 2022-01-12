@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <div>
+    <div className="h-screen grid place-items-center">
       <p>Hello world</p>
     </div>
   );
