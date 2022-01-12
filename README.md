@@ -6,7 +6,7 @@ This is the code for my official website [soorajmodi.com](soorajmodi.com). Writt
 
 Install dependencies
 ```bash
-npm install
+npm ci
 ```
 
 Run server on localhost:3000
