@@ -9,7 +9,7 @@ import { FontAwesomeLink } from '../../../components';
 
 function Links() {
   return (
-    <div className="text-neutral-400 space-x-5">
+    <div className="text-neutral-400 space-x-5 grid grid-rows-1 grid-cols-5 justify-items-center">
       <FontAwesomeLink icon={faGithub} href="https://github.com/SoorajModi" />
       <FontAwesomeLink icon={faLinkedin} href="https://www.linkedin.com/in/soorajmodi/" />
       <FontAwesomeLink icon={faFileAlt} href="/" />
