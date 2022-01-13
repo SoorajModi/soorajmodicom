@@ -3,7 +3,7 @@ import {
   Links, Message, Name, Title, Image,
 } from './components';
 
-function Header() {
+function Home() {
   return (
     <div className="bg-sooraj-blue h-screen grid place-items-center">
       <div className="text-center text-white">
@@ -17,4 +17,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Home;
