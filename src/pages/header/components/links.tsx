@@ -13,8 +13,8 @@ function Links() {
       <FontAwesomeLink icon={faGithub} href="https://github.com/SoorajModi" />
       <FontAwesomeLink icon={faLinkedin} href="https://www.linkedin.com/in/soorajmodi/" />
       <FontAwesomeLink icon={faFileAlt} href="/" />
-      <FontAwesomeLink icon={faDiscord} href="/" />
-      <FontAwesomeLink icon={faSpotify} href="/" />
+      <FontAwesomeLink icon={faDiscord} href="https://discordapp.com/users/356956593293754368" />
+      <FontAwesomeLink icon={faSpotify} href="https://open.spotify.com/user/soorajm" />
     </div>
   );
 }
