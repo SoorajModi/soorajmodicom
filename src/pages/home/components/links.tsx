@@ -23,7 +23,7 @@ function Links() {
         href="https://www.linkedin.com/in/soorajmodi/"
         tooltip="LinkedIn"
         circleStyle="hover:bg-white"
-        iconStyle="hover:text-blue-500"
+        iconStyle="hover:text-linkedin-blue"
       />
       <FontAwesomeLink
         icon={faFileAlt}
@@ -36,7 +36,7 @@ function Links() {
         icon={faDiscord}
         href="https://discordapp.com/users/356956593293754368"
         tooltip="Discord"
-        circleStyle="hover:bg-purple-500"
+        circleStyle="hover:bg-discord-purple"
         iconStyle="hover:text-white"
       />
       <FontAwesomeLink
@@ -44,7 +44,7 @@ function Links() {
         href="https://open.spotify.com/user/soorajm"
         tooltip="Spotify"
         circleStyle="hover:bg-black"
-        iconStyle="hover:text-green-500"
+        iconStyle="hover:text-spotify-green"
       />
     </div>
   );
