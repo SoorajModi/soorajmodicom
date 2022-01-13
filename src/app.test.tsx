@@ -7,9 +7,3 @@ test('renders name', () => {
   const linkElement = screen.getByText(/Sooraj Modi/i);
   expect(linkElement).toBeInTheDocument();
 });
-
-test('renders title', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/Software Developer/i);
-  expect(linkElement).toBeInTheDocument();
-});
