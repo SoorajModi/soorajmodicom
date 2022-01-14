@@ -1,12 +1,12 @@
 # SoorajModi.com
 
-This is the code for my official website [soorajmodi.com](soorajmodi.com). Written in React.js in TypesScript.
+This is the code for my official website [soorajmodi.com](soorajmodi.com). Written in React.js in TypesScript, alongside tailwind.css.
 
 ## How to run
 
 Install dependencies
 ```bash
-npm install
+npm ci
 ```
 
 Run server on localhost:3000
