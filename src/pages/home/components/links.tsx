@@ -6,7 +6,7 @@ import {
   faSpotify,
 } from '@fortawesome/free-brands-svg-icons';
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeLink } from '../../../components';
+import FontAwesomeLink from './fontAwesomeLink';
 
 function Links() {
   return (
@@ -18,6 +18,7 @@ function Links() {
           tooltip="GitHub"
           circleStyle="hover:bg-white"
           iconStyle="hover:text-black"
+          download={false}
         />
         <FontAwesomeLink
           icon={faLinkedin}
@@ -25,13 +26,15 @@ function Links() {
           tooltip="LinkedIn"
           circleStyle="hover:bg-white"
           iconStyle="hover:text-linkedin-blue"
+          download={false}
         />
         <FontAwesomeLink
           icon={faFileAlt}
-          href="/"
+          href="/Resume.pdf"
           tooltip="Resume"
           circleStyle="hover:bg-red-500"
           iconStyle="hover:text-white"
+          download
         />
         <FontAwesomeLink
           icon={faDiscord}
@@ -39,6 +42,7 @@ function Links() {
           tooltip="Discord"
           circleStyle="hover:bg-discord-purple"
           iconStyle="hover:text-white"
+          download={false}
         />
         <FontAwesomeLink
           icon={faSpotify}
@@ -46,6 +50,7 @@ function Links() {
           tooltip="Spotify"
           circleStyle="hover:bg-black"
           iconStyle="hover:text-spotify-green"
+          download={false}
         />
       </div>
     </div>
