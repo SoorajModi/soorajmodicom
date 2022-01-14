@@ -4,6 +4,7 @@ import {
   faGithub,
   faLinkedin,
   faSpotify,
+  faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import FontAwesomeLink from './fontAwesomeLink';
@@ -11,7 +12,7 @@ import FontAwesomeLink from './fontAwesomeLink';
 function Links() {
   return (
     <div className="text-neutral-400 grid justify-items-center">
-      <div className="w-1/3 grid grid-cols-5 justify-items-center">
+      <div className="w-1/3 grid grid-cols-6 justify-items-center">
         <FontAwesomeLink
           icon={faGithub}
           href="https://github.com/SoorajModi"
@@ -26,6 +27,14 @@ function Links() {
           tooltip="LinkedIn"
           circleStyle="hover:bg-white"
           iconStyle="hover:text-linkedin-blue"
+          download={false}
+        />
+        <FontAwesomeLink
+          icon={faTwitter}
+          href="https://twitter.com/SoorajModi"
+          tooltip="Twitter"
+          circleStyle="hover:bg-white"
+          iconStyle="hover:text-twitter-blue"
           download={false}
         />
         <FontAwesomeLink
