@@ -38,14 +38,6 @@ function Links() {
           download={false}
         />
         <FontAwesomeLink
-          icon={faFileAlt}
-          href="/Resume.pdf"
-          tooltip="Resume"
-          circleStyle="hover:bg-red-500"
-          iconStyle="hover:text-white"
-          download
-        />
-        <FontAwesomeLink
           icon={faDiscord}
           href="https://discordapp.com/users/356956593293754368"
           tooltip="Discord"
@@ -60,6 +52,14 @@ function Links() {
           circleStyle="hover:bg-black"
           iconStyle="hover:text-spotify-green"
           download={false}
+        />
+        <FontAwesomeLink
+          icon={faFileAlt}
+          href="/Resume.pdf"
+          tooltip="Resume"
+          circleStyle="hover:bg-red-500"
+          iconStyle="hover:text-white"
+          download
         />
       </div>
     </div>
