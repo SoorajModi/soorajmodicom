@@ -12,7 +12,10 @@ import FontAwesomeLink from './fontAwesomeLink';
 function Links() {
   return (
     <div className="text-neutral-400 grid justify-items-center">
-      <div className="w-1/3 grid grid-cols-6 justify-items-center">
+      <div className="w-80 sm:w-10/12 lg:w-1/3
+        grid grid-rows-3 grid-cols-2 sm:grid-rows-2 sm:grid-cols-3 md:grid-rows-1 md:grid-cols-6
+        justify-items-center"
+      >
         <FontAwesomeLink
           icon={faGithub}
           href="https://github.com/SoorajModi"
