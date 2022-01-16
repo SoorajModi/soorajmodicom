@@ -30,7 +30,7 @@ npm test
 
 Build docker image
 ```bash
-docker build -f Dockerfile.prod -t soorajmodicom:prod .
+docker build -f Dockerfile -t soorajmodicom:prod .
 ```
 
 Start the docker container, this will open the app on http://localhost:1337/
