@@ -1,0 +1,19 @@
+# Git fil
+.git
+.github
+.gitignore
+
+# Linter files
+.eslintrc.json
+.eslintignore
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# Documents
+README.md
+
+# Build files
+build
+node_modules
