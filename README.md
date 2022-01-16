@@ -1,6 +1,6 @@
 # SoorajModi.com
 
-This is the code for my official website [soorajmodi.com](soorajmodi.com). Written in React.js in TypesScript, alongside tailwind.css.
+This is the code for my official website [soorajmodi.com](https://soorajmodi.com). Written in React.js in TypeScript, alongside tailwind.css.
 
 ## How to run
 
