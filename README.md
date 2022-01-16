@@ -1,5 +1,6 @@
 ![Version](https://img.shields.io/github/package-json/v/soorajmodi/soorajmodicom)
 ![CI](https://github.com/SoorajModi/soorajmodicom/workflows/CI/badge.svg)
+![License](https://img.shields.io/github/license/soorajmodi/soorajmodicom)
 
 # SoorajModi.com
 
