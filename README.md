@@ -1,3 +1,7 @@
+![Version](https://img.shields.io/github/package-json/v/soorajmodi/soorajmodicom)
+![CI](https://github.com/SoorajModi/soorajmodicom/workflows/CI/badge.svg)
+![License](https://img.shields.io/github/license/soorajmodi/soorajmodicom)
+
 # SoorajModi.com
 
 This is the code for my official website [soorajmodi.com](https://soorajmodi.com). Written in React.js in TypeScript, alongside tailwind.css.
