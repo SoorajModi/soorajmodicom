@@ -4,7 +4,8 @@
 
 # SoorajModi.com
 
-This is the code for my official website [soorajmodi.com](https://soorajmodi.com). Written in React.js in TypeScript, alongside tailwind.css.
+This is the code for my official website [soorajmodi.com](https://soorajmodi.com). Written in React.js in TypeScript, 
+alongside tailwind.css. Deployed and hosted on Firebase.
 
 ## How to run
 
@@ -36,4 +37,14 @@ docker build -f Dockerfile -t soorajmodicom:prod .
 Start the docker container, this will open the app on http://localhost:1337/
 ```bash
 docker run -it --rm -p 1337:80 soorajmodicom:prod
+```
+
+To manually deploy to Firebase, first login
+```bash
+firebase login
+```
+
+Then in the project directory
+```bash
+firebase deploy
 ```
