@@ -8,6 +8,11 @@ describe('Title', () => {
     expect(component.length).toEqual(1);
   });
 
+  it('should match Title snapshot', () => {
+    const component = shallow(<Title />);
+    expect(component).toMatchSnapshot();
+  });
+
   it('should render title', () => {
     const component = shallow(<Title />);
     expect(component.text()).toMatch(/Software Developer/);
