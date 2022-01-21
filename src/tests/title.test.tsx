@@ -12,9 +12,4 @@ describe('Title', () => {
     const component = shallow(<Title />);
     expect(component).toMatchSnapshot();
   });
-
-  it('should render title', () => {
-    const component = shallow(<Title />);
-    expect(component.text()).toMatch(/Software Developer/);
-  });
 });

@@ -12,9 +12,4 @@ describe('Name', () => {
     const component = shallow(<Name />);
     expect(component).toMatchSnapshot();
   });
-
-  it('should render my name', () => {
-    const component = shallow(<Name />);
-    expect(component.text()).toMatch(/Sooraj Modi/);
-  });
 });

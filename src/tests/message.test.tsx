@@ -12,9 +12,4 @@ describe('Message', () => {
     const component = shallow(<Message />);
     expect(component).toMatchSnapshot();
   });
-
-  it('should render messsage', () => {
-    const component = shallow(<Message />);
-    expect(component.text()).toMatch(/Hi my name is Sooraj, and welcome to my website./);
-  });
 });
