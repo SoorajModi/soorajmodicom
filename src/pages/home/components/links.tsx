@@ -58,7 +58,7 @@ function Links() {
         />
         <FontAwesomeLink
           icon={faFileAlt}
-          href="/Resume.pdf"
+          href="/SoorajModiResume.pdf"
           tooltip="Resume"
           circleStyle="hover:bg-red-500"
           iconStyle="hover:text-white"
