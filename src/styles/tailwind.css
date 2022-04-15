@@ -522,6 +522,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   place-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-items-center {
   justify-items: center;
 }
@@ -538,6 +542,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pb-3 {
@@ -612,11 +621,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(114 137 218 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-black:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-red-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
@@ -640,11 +644,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:text-spotify-green:hover {
-  --tw-text-opacity: 1;
-  color: rgb(29 185 84 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
