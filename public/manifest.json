@@ -1,14 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "sooraj",
+  "name": "soorajmodicom",
   "icons": [
     {
-      "src": "logo-black.png",
-      "type": "image/png",
-      "sizes": "912x912"
-    },
-    {
-      "src": "logo-white.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "912x912"
     }
