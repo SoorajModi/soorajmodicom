@@ -3,7 +3,6 @@ import {
   faDiscord,
   faGithub,
   faLinkedin,
-  faSpotify,
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
@@ -46,14 +45,6 @@ function Links() {
           tooltip="Discord"
           circleStyle="hover:bg-discord-purple"
           iconStyle="hover:text-white"
-          download={false}
-        />
-        <FontAwesomeLink
-          icon={faSpotify}
-          href="https://open.spotify.com/user/soorajm"
-          tooltip="Spotify"
-          circleStyle="hover:bg-black"
-          iconStyle="hover:text-spotify-green"
           download={false}
         />
         <FontAwesomeLink
