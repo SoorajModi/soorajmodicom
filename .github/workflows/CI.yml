@@ -15,7 +15,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Setup node
+      - name: Setup Node 🎯
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
