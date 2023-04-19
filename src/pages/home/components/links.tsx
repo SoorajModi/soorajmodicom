@@ -3,7 +3,6 @@ import {
   faDiscord,
   faGithub,
   faLinkedin,
-  faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import FontAwesomeLink from './fontAwesomeLink';
@@ -24,14 +23,6 @@ function Links() {
       tooltip: 'LinkedIn',
       circleStyle: 'hover:bg-white',
       iconStyle: 'hover:text-linkedin-blue',
-      download: false,
-    },
-    {
-      icon: faTwitter,
-      href: 'https://twitter.com/SoorajModi',
-      tooltip: 'Twitter',
-      circleStyle: 'hover:bg-white',
-      iconStyle: 'hover:text-twitter-blue',
       download: false,
     },
     {
