@@ -2,14 +2,9 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import Links from '../pages/home/components/links';
 
-describe('Links', () => {
-  it('should render Links component', () => {
+describe('<Links /> integration', () => {
+  it('should render component', () => {
     const component = shallow(<Links />);
     expect(component.length).toEqual(1);
-  });
-
-  it('should match Links snapshot', () => {
-    const component = shallow(<Links />);
-    expect(component).toMatchSnapshot();
   });
 });

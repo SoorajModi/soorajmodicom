@@ -1,15 +1,39 @@
 import React from 'react';
-import { shallow } from 'enzyme';
-import Home from '../pages/home';
+import { shallow, mount, render } from 'enzyme';
+import Home, { messages } from '../pages/home';
+import Profile from '../pages/home/assets/profile.png'
 
-describe('Links', () => {
-  it('should render Links component', () => {
+describe('<Home /> integration', () => {
+  it('should render Home component', () => {
     const component = shallow(<Home />);
     expect(component.length).toEqual(1);
   });
+  
+  it('should render profile picture', () => {
+    const component = mount(<Home />);
+    const received = component.find({ 'data-testid': 'profile' });
 
-  it('should match Links snapshot', () => {
-    const component = shallow(<Home />);
-    expect(component).toMatchSnapshot();
+    expect(received.prop("src")).toBe(Profile);
+  });
+
+  it('should render name', () => {
+    const component = mount(<Home />);
+    const received = component.find({ 'data-testid': 'name' }).text();
+
+    expect(received).toBe(messages.name);
+  });
+
+  it('should render title', () => {
+    const component = mount(<Home />);
+    const received = component.find({ 'data-testid': 'title' }).text();
+
+    expect(received).toBe(messages.title);
+  });
+
+  it('should render description', () => {
+    const component = mount(<Home />);
+    const received = component.find({ 'data-testid': 'description' }).text();
+
+    expect(received).toBe(messages.description);
   });
 });

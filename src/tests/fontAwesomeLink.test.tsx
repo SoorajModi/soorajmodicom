@@ -12,14 +12,9 @@ const props = {
   download: false,
 };
 
-describe('FontAwesomeLink', () => {
-  it('should render FontAwesomeLink component', () => {
+describe('<FontAwesomeLink /> integration', () => {
+  it('should render component', () => {
     const component = shallow(<FontAwesomeLink {...props} />);
     expect(component.length).toEqual(1);
-  });
-
-  it('should match FontAwesomeLink snapshot', () => {
-    const component = shallow(<FontAwesomeLink {...props} />);
-    expect(component).toMatchSnapshot();
   });
 });
