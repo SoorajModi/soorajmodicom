@@ -5,9 +5,9 @@ import {
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
-import FontAwesomeLink from './fontAwesomeLink';
+import FontAwesomeLink, { FontAwesomeLinkProps } from './fontAwesomeLink';
 
-const list = [
+const list: Array<FontAwesomeLinkProps> = [
   {
     icon: faGithub,
     href: 'https://github.com/SoorajModi',

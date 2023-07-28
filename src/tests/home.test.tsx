@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, mount, render } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import Home, { messages } from '../pages/home';
 import Profile from '../pages/home/assets/profile.png'
 
@@ -8,12 +8,13 @@ describe('<Home /> integration', () => {
     const component = shallow(<Home />);
     expect(component.length).toEqual(1);
   });
-  
+
   it('should render profile picture', () => {
     const component = mount(<Home />);
     const received = component.find({ 'data-testid': 'profile' });
 
     expect(received.prop("src")).toBe(Profile);
+    expect(received.prop("alt")).toBe(messages.name);
   });
 
   it('should render name', () => {
