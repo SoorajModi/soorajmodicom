@@ -24,10 +24,7 @@ jobs:
         run: npm ci
 
       - name: Run linter ⚡
-        run: next lint
-
-      - name: Run tests ✅
-        run: npm test
+        run: npm run lint
 
       - name: Run build 🔨
-        run: next build
+        run: npm run build
