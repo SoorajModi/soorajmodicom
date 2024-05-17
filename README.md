@@ -15,17 +15,17 @@ npm ci
 
 Run server on [http://localhost:3000](http://localhost:3000)
 ```bash
-npm run dev
+next start
 ```
 
 Build
 ```bash
-npm run build
+next build
 ```
 
-Run tests
+Run linter
 ```bash
-npm test
+next lint
 ```
 
 ## License
