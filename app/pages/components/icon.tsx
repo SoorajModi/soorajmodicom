@@ -17,7 +17,7 @@ export interface IconProps {
 function Icon(props: IconProps) {
   return ( 
     <div className="pb-3 md:pb-0">
-      <a href={props.href} target="_blank" rel="noopener noreferrer" className={`${props.circleStyle} flex rounded-full h-12 w-12 bg-gray-500 items-center justify-center`} download={props.download} data-tooltip-id={"tooltip"} data-tooltip-content={props.tooltip} data-tooltip-place="bottom">
+      <a href={props.href} target="_blank" rel="noopener noreferrer" className={`${props.circleStyle} group flex rounded-full h-12 w-12 bg-gray-500 items-center justify-center`} download={props.download} data-tooltip-id={"tooltip"} data-tooltip-content={props.tooltip} data-tooltip-place="bottom">
         <div className={`${props.iconStyle} text-black flex items-center justify-center`}> 
           <FontAwesomeIcon icon={props.icon} size="2x" />
         </div>

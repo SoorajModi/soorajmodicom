@@ -13,7 +13,7 @@ const list: Array<IconProps> = [
     href: 'https://github.com/SoorajModi',
     tooltip: 'GitHub',
     circleStyle: 'hover:bg-white',
-    iconStyle: 'hover:text-black',
+    iconStyle: 'group-hover:text-black',
     download: false,
   },
   {
@@ -21,7 +21,7 @@ const list: Array<IconProps> = [
     href: 'https://www.linkedin.com/in/soorajmodi/',
     tooltip: 'LinkedIn',
     circleStyle: 'hover:bg-white',
-    iconStyle: 'hover:text-linkedin-blue',
+    iconStyle: 'group-hover:text-linkedin-blue',
     download: false,
   },
   {
@@ -29,7 +29,7 @@ const list: Array<IconProps> = [
     href: 'https://discordapp.com/users/356956593293754368',
     tooltip: 'Discord',
     circleStyle: 'hover:bg-discord-purple',
-    iconStyle: 'hover:text-white',
+    iconStyle: 'group-hover:text-white',
     download: false,
   },
   {
@@ -37,7 +37,7 @@ const list: Array<IconProps> = [
     href: '/SoorajModiResume.pdf',
     tooltip: 'Resume',
     circleStyle: 'hover:bg-red-500',
-    iconStyle: 'hover:text-white',
+    iconStyle: 'group-hover:text-white',
     download: true,
   },
 ];

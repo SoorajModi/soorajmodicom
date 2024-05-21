@@ -26,7 +26,7 @@ describe('Page', () => {
   it('renders description', () => {
     render(<Page />)
 
-    const description = screen.getByRole('p');
+    const description = screen.getByRole('paragraph');
 
     expect(description).toBeInTheDocument()
     expect(description).toHaveTextContent(messages.description)
