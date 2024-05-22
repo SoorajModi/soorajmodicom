@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Links from "./components/links";
+import Links from "./links";
 
 export const messages = {
   name: 'Sooraj Modi',

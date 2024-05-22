@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import {
   faDiscord,
@@ -5,9 +7,9 @@ import {
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
-import Icon, { IconProps } from './icon';
+import CustomIcon, { CustomIconProps } from './customIcon';
 
-const list: Array<IconProps> = [
+const list: Array<CustomIconProps> = [
   {
     icon: faGithub,
     href: 'https://github.com/SoorajModi',
@@ -48,7 +50,7 @@ function Links() {
       {
         list.map((link, index) => (
           <div className="flex px-5" key={index}>
-            <Icon {...link} />
+            <CustomIcon {...link} />
           </div>
         ))
       }

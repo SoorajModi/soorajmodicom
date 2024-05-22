@@ -2,7 +2,7 @@ import React from 'react'
 import '@testing-library/jest-dom'
 import { render, screen, within } from '@testing-library/react'
 import Page from './page'
-import { messages } from './pages'
+import { messages } from './components/home'
  
 describe('Page', () => {
   it('renders name', () => {
