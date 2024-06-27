@@ -21,7 +21,7 @@ function Home() {
       />
       <h1 className="text-4xl sm:text-6xl py-2">{messages.name}</h1>
       <h2 className="text-neutral-400 text-lg sm:text-2xl pb-5">{messages.title}</h2>
-      <p className="text-base sm:text-xl flex justify-center align-center pb-10 w-96" data-testid="description">{messages.description}</p>
+      <p className="text-base sm:text-xl flex justify-center align-center pb-10 max-w-96 break-normal mx-5" data-testid="description">{messages.description}</p>
       <Links />
     </div>
   )
